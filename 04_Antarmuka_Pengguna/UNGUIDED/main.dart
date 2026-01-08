@@ -32,27 +32,22 @@ class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
   final List<Map<String, String>> _listData = [
-    {
-      "judul": "Curug Pitu",
-      "deskripsi": "Wisata religius para pecinta air terjun karena airnya ada 7 sesuai dengan apa hayo",
-      "gambar": "assets/images/1.jpg",
-    },
-    {
-      "judul": "Curug Pitu",
-      "deskripsi": "Wisata religius para pecinta air terjun karena airnya ada 7 sesuai dengan apa hayo",
-      "gambar": "assets/images/1.jpg",
-    },
-    {
-      "judul": "Curug Pitu",
-      "deskripsi": "Wisata religius para pecinta air terjun karena airnya ada 7 sesuai dengan apa hayo",
-      "gambar": "assets/images/1.jpg",
-    },
-    {
-      "judul": "Curug Pitu",
-      "deskripsi": "Wisata religius para pecinta air terjun karena airnya ada 7 sesuai dengan apa hayo",
-      "gambar": "assets/images/1.jpg",
-    },
-  ];
+  {
+    "judul": "Curug Pitu",
+    "deskripsi": "Air terjun bertingkat tujuh yang menjadi ikon wisata alam Baturraden.",
+    "gambar": "assets/images/1.jpg",
+  },
+  {
+    "judul": "Telaga Sunyi",
+    "deskripsi": "Telaga alami dengan air jernih dan suasana tenang di kaki Gunung Slamet.",
+    "gambar": "assets/images/3.jpeg",
+  },
+  {
+    "judul": "Small World Purwokerto",
+    "deskripsi": "Wisata edukatif miniatur bangunan dunia yang cocok untuk keluarga.",
+    "gambar": "assets/images/2.jpg",
+  },
+];
 
   void _onItemTapped(int index) {
     setState(() {
